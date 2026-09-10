@@ -13,7 +13,7 @@ Together:
   - sdsd
 
 # Thursday:
-- Bhavya:
+- Bhavna:
   - sdf
 - Mehek:
   - jashf
