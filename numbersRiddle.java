@@ -4,6 +4,14 @@ public class numbersRiddle {
     public static void main(String[] args) {
         // create a Scanner object to read user input
         Scanner input = new Scanner(System.in);
+
+        // Test cases with different variables representing different data types
+        int PositiveInteger = 4;
+        int NegativeInteger = -6;
+        int Zero = 0;
+        int One = 1;
+        double PositiveDouble = 8.9;
+        double NegativeDouble = -2.7;
         
         // ask the user for their starting secret number
         System.out.print("Enter a whole number: ");
