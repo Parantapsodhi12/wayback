@@ -41,7 +41,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 2
         // initialize the tracking variable with the test case
-        int currentTotal = negativeInteger;
+        double currentTotal = negativeInteger;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -67,7 +67,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 3
         // initialize the tracking variable with the test case
-        int currentTotal = zero;
+        double currentTotal = zero;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -92,7 +92,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 4
         // initialize the tracking variable with the test case
-        int currentTotal = one;
+        double currentTotal = one;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -117,7 +117,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 5
         // initialize the tracking variable with the test case 
-        int currentTotal = positiveDouble;
+        double currentTotal = positiveDouble;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -143,7 +143,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 6
         // initialize the tracking variable with the test case 
-        int currentTotal = negativeDouble;
+        double currentTotal = negativeDouble;
         
         // multiply the number by 2
         currentTotal *= 2; 
