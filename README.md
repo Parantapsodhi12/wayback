@@ -10,7 +10,7 @@ Together:
 - planned out and split up work
 # Wednesday:
 - Parantap:
-  - sdsd
+  - made base code with some riddle functionality, didnt work with decimals, didnt use compound operators
 
 # Thursday:
 - Bhavna:
