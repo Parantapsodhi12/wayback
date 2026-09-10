@@ -8,15 +8,12 @@ Tuesday:
 Together:
 - made github repo
 - planned out and split up work
+# Wednesday:
+- Parantap:
+  - sdsd
 
-Wednesday:
-
-Parantap:
-- 
-
-Thursday:
-
-Bhavya:
-- 
-Mehek:
-- 
+# Thursday:
+- Bhavya:
+  - sdf
+- Mehek:
+  - jashf
