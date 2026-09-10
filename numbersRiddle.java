@@ -1,9 +1,5 @@
-import java.util.Scanner;
-
 public class numbersRiddle {
     public static void main(String[] args) {
-        // create a Scanner object to read user input
-        Scanner input = new Scanner(System.in);
 
         // Test cases with different variables representing different data types
         int positiveInteger = 4;
@@ -14,7 +10,9 @@ public class numbersRiddle {
         double negativeDouble = -2.7;
 //-------------------------------------------------------------------------------------------------------------------------------------
         // Perform caclulations with test case 1
+
         // initialize the tracking variable with the test case 
+        //System.out.println("The original number is 4");
         double currentTotal = positiveInteger;
         
         // multiply the number by 2
@@ -41,7 +39,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 2
         // initialize the tracking variable with the test case
-        double currentTotal = negativeInteger;
+        currentTotal = negativeInteger;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -67,7 +65,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 3
         // initialize the tracking variable with the test case
-        double currentTotal = zero;
+        currentTotal = zero;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -92,7 +90,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 4
         // initialize the tracking variable with the test case
-        double currentTotal = one;
+        currentTotal = one;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -117,7 +115,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 5
         // initialize the tracking variable with the test case 
-        double currentTotal = positiveDouble;
+        currentTotal = positiveDouble;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -143,7 +141,7 @@ public class numbersRiddle {
 
         // Perform calculations with test case 6
         // initialize the tracking variable with the test case 
-        double currentTotal = negativeDouble;
+        currentTotal = negativeDouble;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -164,6 +162,5 @@ public class numbersRiddle {
         // print the final result (it will always be 3)
         System.out.println("The riddle's final answer is: " + currentTotal);
     
-        input.close();
     }
 }
