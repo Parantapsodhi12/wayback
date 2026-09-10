@@ -10,10 +10,12 @@ Together:
 - planned out and split up work
 
 Wednesday:
+
 Parantap:
 - 
 
 Thursday:
+
 Bhavya:
 - 
 Mehek:
