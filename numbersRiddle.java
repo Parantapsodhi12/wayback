@@ -8,7 +8,9 @@ public class numbersRiddle {
         int one = 1;
         double positiveDouble = 8.9;
         double negativeDouble = -2.7;
-//-------------------------------------------------------------------------------------------------------------------------------------
+        
+        System.out.println("--------------------------------------------------------------------------------------");
+
         // Perform caclulations with test case 1
 
         // initialize the tracking variable with the test case 
@@ -35,7 +37,7 @@ public class numbersRiddle {
         System.out.println("The riddle's final answer is: " + currentTotal);
 
         
-//-------------------------------------------------------------------------------------------------------------------------------------
+        System.out.println("--------------------------------------------------------------------------------------");
 
         // Perform calculations with test case 2
         // initialize the tracking variable with the test case
@@ -62,7 +64,7 @@ public class numbersRiddle {
         System.out.println("The riddle's final answer is: " + currentTotal);
 
 
-//-------------------------------------------------------------------------------------------------------------------------------------
+        System.out.println("--------------------------------------------------------------------------------------");
 
         // Perform calculations with test case 3
         // initialize the tracking variable with the test case
@@ -88,7 +90,8 @@ public class numbersRiddle {
         // print the final result (it will always be 3)
         System.out.println("The riddle's final answer is: " + currentTotal);
 
-//-------------------------------------------------------------------------------------------------------------------------------------
+        
+        System.out.println("--------------------------------------------------------------------------------------");
 
         // Perform calculations with test case 4
         // initialize the tracking variable with the test case
@@ -114,7 +117,8 @@ public class numbersRiddle {
         // print the final result (it will always be 3)
         System.out.println("The riddle's final answer is: " + currentTotal);
 
-//-------------------------------------------------------------------------------------------------------------------------------------
+        System.out.println("--------------------------------------------------------------------------------------");
+
 
         // Perform calculations with test case 5
         // initialize the tracking variable with the test case 
@@ -141,7 +145,8 @@ public class numbersRiddle {
         System.out.println("The riddle's final answer is: " + currentTotal);
 
         
-//-------------------------------------------------------------------------------------------------------------------------------------
+        System.out.println("--------------------------------------------------------------------------------------");
+
 
         // Perform calculations with test case 6
         // initialize the tracking variable with the test case 
@@ -166,6 +171,9 @@ public class numbersRiddle {
         
         // print the final result (it will always be 3)
         System.out.println("The riddle's final answer is: " + currentTotal);
+        
+        System.out.println("--------------------------------------------------------------------------------------");
+
     
     }
 }
