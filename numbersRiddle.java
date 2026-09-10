@@ -6,15 +6,16 @@ public class numbersRiddle {
         Scanner input = new Scanner(System.in);
 
         // Test cases with different variables representing different data types
-        int PositiveInteger = 4;
-        int NegativeInteger = -6;
-        int Zero = 0;
-        int One = 1;
-        double PositiveDouble = 8.9;
-        double NegativeDouble = -2.7;
-        
+        int positiveInteger = 4;
+        int negativeInteger = -6;
+        int zero = 0;
+        int one = 1;
+        double positiveDouble = 8.9;
+        double negativeDouble = -2.7;
+//-------------------------------------------------------------------------------------------------------------------------------------
+        // Perform caclulations with test case 1
         // initialize the tracking variable with the user's choice 
-        int currentTotal = PositiveInteger;
+        int currentTotal = positiveInteger;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -29,16 +30,18 @@ public class numbersRiddle {
         System.out.println(currentTotal);
         
         // subtract the original number
-        currentTotal = currentTotal - PositiveInteger; 
+        currentTotal = currentTotal - positiveInteger; 
         System.out.println(currentTotal);
         
         // print the final result (it will always be 3)
         System.out.println("The riddle's final answer is: " + currentTotal);
 
-        //-------------------------------------------------------------------------------------------------------------------------------------
+        
+//-------------------------------------------------------------------------------------------------------------------------------------
 
-                // initialize the tracking variable with the user's choice 
-        int currentTotal = NegativeInteger;
+        // Perform calculations with test case 2
+        // initialize the tracking variable with the user's choice 
+        int currentTotal = negativeInteger;
         
         // multiply the number by 2
         currentTotal *= 2; 
@@ -53,12 +56,113 @@ public class numbersRiddle {
         System.out.println(currentTotal);
         
         // subtract the original number
-        currentTotal = currentTotal - NegativeInteger; 
+        currentTotal = currentTotal - negativeInteger; 
         System.out.println(currentTotal);
         
         // print the final result (it will always be 3)
         System.out.println("The riddle's final answer is: " + currentTotal);
+
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+        // Perform calculations with test case 3
+        // initialize the tracking variable with the user's choice 
+        int currentTotal = zero;
         
+        // multiply the number by 2
+        currentTotal *= 2; 
+        System.out.println(currentTotal);
+        
+        // add 6 to the total
+        currentTotal += 6; 
+        System.out.println(currentTotal);
+        
+        // divide the total by 2
+        currentTotal /= 2; 
+        System.out.println(currentTotal);
+        
+        // subtract the original number
+        currentTotal = currentTotal - zero; 
+        System.out.println(currentTotal);
+        
+        // print the final result (it will always be 3)
+        System.out.println("The riddle's final answer is: " + currentTotal);
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+        // Perform calculations with test case 4
+        // initialize the tracking variable with the user's choice 
+        int currentTotal = one;
+        
+        // multiply the number by 2
+        currentTotal *= 2; 
+        System.out.println(currentTotal);
+        
+        // add 6 to the total
+        currentTotal += 6; 
+        System.out.println(currentTotal);
+        
+        // divide the total by 2
+        currentTotal /= 2; 
+        System.out.println(currentTotal);
+        
+        // subtract the original number
+        currentTotal = currentTotal - one; 
+        System.out.println(currentTotal);
+        
+        // print the final result (it will always be 3)
+        System.out.println("The riddle's final answer is: " + currentTotal);
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+        // Perform calculations with test case 5
+        // initialize the tracking variable with the user's choice 
+        int currentTotal = positiveDouble;
+        
+        // multiply the number by 2
+        currentTotal *= 2; 
+        System.out.println(currentTotal);
+        
+        // add 6 to the total
+        currentTotal += 6; 
+        System.out.println(currentTotal);
+        
+        // divide the total by 2
+        currentTotal /= 2; 
+        System.out.println(currentTotal);
+        
+        // subtract the original number
+        currentTotal = currentTotal - positiveDouble; 
+        System.out.println(currentTotal);
+        
+        // print the final result (it will always be 3)
+        System.out.println("The riddle's final answer is: " + currentTotal);
+
+        
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+        // Perform calculations with test case 6
+        // initialize the tracking variable with the user's choice 
+        int currentTotal = negativeDouble;
+        
+        // multiply the number by 2
+        currentTotal *= 2; 
+        System.out.println(currentTotal);
+        
+        // add 6 to the total
+        currentTotal += 6; 
+        System.out.println(currentTotal);
+        
+        // divide the total by 2
+        currentTotal /= 2; 
+        System.out.println(currentTotal);
+        
+        // subtract the original number
+        currentTotal = currentTotal - negativeDouble; 
+        System.out.println(currentTotal);
+        
+        // print the final result (it will always be 3)
+        System.out.println("The riddle's final answer is: " + currentTotal);
     
         input.close();
     }
